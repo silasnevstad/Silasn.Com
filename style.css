@@ -1,0 +1,196 @@
+body {
+  background-color: black;
+  color: #4bf84b;
+  font-family: "Menlo", monospace;
+}
+
+h1 {
+  font-family: "Menlo", monospace;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+}
+
+#parent {
+  position: relative;
+  /* width: 500px; */
+  /* height: 500px; */
+}
+/* 
+.child {
+  width: 200px;
+  height: 150px;
+  margin: 5px auto;
+} */
+
+.headerH2 {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: lighter;
+  opacity: 0.6;
+}
+
+h2 {
+  font-family: "Menlo", monospace;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+a {
+  font-family: "Menlo", monospace;
+  font-size: 14px;
+  color: #4bf84b;
+  text-decoration: none;
+}
+
+p {
+  font-family: "Menlo", monospace;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  /* margin-left: 0px; */
+}
+
+li {
+  font-family: "Menlo", monospace;
+  list-style: none;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.biggerLi {
+  font-weight: bold;
+}
+
+.specialLi {
+  font-size: 17px;
+}
+
+.bulletPoint {
+  list-style: circle;
+}
+
+.skills-inline {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+nav a {
+  color: #4bf84b;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #4bf84b;
+  color: black;
+}
+
+#nav-button {
+  background-color: black;
+  color: #4bf84b;
+  margin-top: 5px;
+  margin-left: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: "Menlo", monospace;
+  font-size: 16px;
+}
+
+#nav-menu {
+  display: none;
+  font-family: "Menlo", monospace;
+  font-size: 16px;
+}
+
+#nav-menu a {
+  margin-left: 10px;
+  display: inline-block;
+  background-color: black;
+  color: #4bf84b;
+  padding: 1px;
+  text-decoration: none;
+}
+
+#nav-menu a:hover {
+  background-color: #4bf84b;
+  color: black;
+}
+
+#nav-menu {
+  display: none;
+}
+
+#nav-button:hover + #nav-menu, #nav-menu:hover {
+  display: block;
+}
+
+#myProgress {
+  width: 100%;
+  background-color: grey;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: green;
+}
+
+.school-name {
+  font-weight: bold;
+}
+
+.school-year {
+  font-size: 14px;
+}
+
+.school-location {
+  font-size: 12px;
+}
+
+.python {
+  width: 150px;
+  height: 10px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(204, 255, 204, 0.3);
+  background-image: linear-gradient(to right, green 0%, green 90%, #ccffcc 90%);
+  margin-left: 10px;
+}
+.python::-webkit-progress-bar {
+  background-color: #939393;
+  border-radius: 30px;
+}
+
+.python::-webkit-progress-value {
+  border-radius: 30px;
+  background: linear-gradient(to right, #00b09b, #96c93d);
+}
+
+.sticky-div {
+  position: sticky;
+  top: 0;
+  z-index: 1; /* The sticky element will have a higher z-index than the scrollable elements */
+  background-color: black;
+}
+
+.scrollable-div {
+  z-index: 0; /* The scrollable elements will have a lower z-index than the sticky element */
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: black;
+  z-index: 1; /* The sticky element will have a higher z-index than the scrollable elements */
+  padding: 10px;
+}
+
