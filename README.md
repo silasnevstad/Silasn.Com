@@ -1,5 +1,6 @@
 # Personal Website
 A simple personal website I made for myself.
+[Visit](http://silasn.com)
 
 <!-- TABLE OF CONTENTS -->
 <div id="top"></div>
